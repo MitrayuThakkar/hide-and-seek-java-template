@@ -1,11 +1,18 @@
 package org.example;
 
-// Don't change this file!
-
+/**
+ * Fuzzy.java
+ *
+ * Represents a simple fuzzy object, typically used in our
+ * Hide and Seek or other search-related labs. Each fuzzy
+ * has a color.
+ */
 public class Fuzzy {
-  public String color;
+    // Publicly accessible color field
+    public String color;
 
-  public Fuzzy(String color) {
-    this.color = color;
-  }
+    // Constructor initializes the color
+    public Fuzzy(String color) {
+        this.color = color;
+    }
 }
